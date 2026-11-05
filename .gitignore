@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+
+# Secrets (API keys)
+.env
+
+# Data: large files, and the PDFs are public but not mine to redistribute
+data/raw/
+data/processed/
+
+# Python junk
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter, if you use notebooks
+.ipynb_checkpoints/
